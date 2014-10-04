@@ -1,0 +1,11 @@
+<div class ="awesome-box col-xs-4 col-xs-offset-4" style="margin-top: 200px; padding-bottom: 10px"> 
+
+	<%= simple_form_for @quote do |f| %>
+  	<%= f.input :saying, label: 'Quotation' %>
+  	<br>
+  	<%= f.input :author, label: 'Your name' %>
+  	<br>
+  	<%= f.button :submit, :class => 'btn btn-danger' %>
+	<% end %>
+
+</div>
